@@ -8,13 +8,17 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main()
 {
-	char low;
-
-	for (low = 'z'; low >= 'a'; low--)
-		putchar(low);
-		putchar('\n');
-
-	return (0);
+    char i;
+ 
+    putchar("Capital (upper) case characters:\n");
+    for(i='A'; i<='Z'; i++)
+        putchar("%c ",i);
+ 
+    printf("\n\nLower case characters:\n");
+    for(i='a'; i<='z'; i++)
+        putchar("%c ",i);
+     
+    return 0;
 }
