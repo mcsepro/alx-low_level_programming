@@ -8,11 +8,13 @@
  * Return: Always 0 (Success)
  */
 
-int main (void) {
-	char low;
+int main(void) 
+{
+	char alpha;
+	char bet;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
+	for (alpha= 'a'; alphaz\a <= 'z'; alpha++)
+		putchar(alpha);
 		putchar('\n');
 
 	return (0);
