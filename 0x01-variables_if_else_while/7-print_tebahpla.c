@@ -1,24 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - entry
  *
- * Return: Always 0 (Success)
+ * Description: print lowercase alphabets in reverse and a newline
+ *
+ * Return: returns 0
  */
 
-int main()
+int main(void)
 {
-    char i;
- 
-    putchar("Capital (upper) case characters:\n");
-    for(i='A'; i<='Z'; i++)
-        putchar("%c ",i);
- 
-    printf("\n\nLower case characters:\n");
-    for(i='a'; i<='z'; i++)
-        putchar("%c ",i);
-     
-    return 0;
+	char ch;
+
+	ch = 'z';
+
+	do {
+		putchar(ch);
+		ch--;
+	}
+
+	while (ch >= 'a');
+
+	putchar('\n');
+
+	return (0);
 }
