@@ -1,6 +1,6 @@
 /*
  * File: 7-print_diagonal.c
- * Auth: Martins Arem
+ * Auth: MARTINS AREM
  */
 
 #include "main.h"
