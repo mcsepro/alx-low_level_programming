@@ -1,18 +1,26 @@
+/*
+ * File: 0-memset.c
+ * 
+ */
+
 #include "main.h"
 
 /**
- * _memset - prints buffer in hexa
- * @s: The array
- * @b: What the array should be filled
- * @n: How many bytes of the array should be filled
- * Return: Nothing.
+ * memset - Fills the first n bytes of the memory area
+ *          pointed to by @s with the constant byte @c.
+ * @s: A pointer to the memory area to be filled.
+ * @c: The character to fill the memory area with.
+ * @n: The number of bytes to be filled.
+ *
+ * Return: A pointer to the filled memory area @s.
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int c, size_t n)
 {
-	unsigned int i;
+	unsigned int index;
+	unsigned char *memory = s, value = c;
 
-	for (i = 0; i < n; i++)
-		s[i] = b;
+	for (index = 0; index < n; index++)
+		memory[index] = value;
 
-	return (s);
+	return (memory);
 }
