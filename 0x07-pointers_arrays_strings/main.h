@@ -1,11 +1,11 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef ALX_A
+#define ALX_A
 
 /**
- * File: holberton.h
- * Auth: Brennan D Baraban
+ * File: main.h
+ *
  * Desc: Header file containing prototypes for all functions
- *       used in the 0x06-pointers_arrays_strings directory.
+ *       used in the 0x07-pointers_arrays_strings directory.
  */
 
 #include <stddef.h>
