@@ -1,10 +1,4 @@
-/*
- * File: 0-memset.c
- * 
- */
-
 #include "main.h"
-#include <string.h>
 
 /**
  * memset - Fills the first n bytes of the memory area
