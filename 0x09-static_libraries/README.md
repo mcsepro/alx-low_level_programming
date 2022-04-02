@@ -1,4 +1,4 @@
-# 0x08. C - Static libraries
+# 0x09. C - Static libraries
 
 This repository contains more projects introducing the use, purpose of static libraries. Below is a list of the projects following a description for each of them.
 
@@ -37,7 +37,7 @@ creat a main.c file
 
 gcc main.c -L. -lholberton -o quote
 ```
-## libholberton.a
+## libmy.a
 
 A static library containing all the functions listed below
 
@@ -66,7 +66,7 @@ char *_strstr(char *haystack, char *needle);
 
 
 
-## holberton.h
+## main.h
 
 The header file containing necessary prototypes. 
 
