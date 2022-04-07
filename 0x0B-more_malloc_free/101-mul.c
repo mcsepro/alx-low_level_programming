@@ -1,9 +1,9 @@
 /*
  * File: 101-mul.c
- * Auth: Brennan D Baraban
+ * Auth: Martins Arem
  */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
